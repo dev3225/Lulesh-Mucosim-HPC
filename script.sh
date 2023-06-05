@@ -18,8 +18,8 @@ export SLURM_EXPORT_ENV=ALL
 
 ###Load the requisite modules
 
-module use ~unrz139/.modules/modulefiles
-module load likwid/5.2.2-perf-nvmon
+module use ~xyz1234.modules/modulefiles
+module load <likwid>
 module load cmake
 module load intel
 module load intelmpi
